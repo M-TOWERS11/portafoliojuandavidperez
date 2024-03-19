@@ -1,11 +1,14 @@
 *{
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body{
     margin: 0;
     padding: 0;
-    background-color: #0F0E0E;
+    background: linear-gradient( #E396A6, #E396A6);
+    min-height: 100vh;
+    overflow: scroll;
 }
 
 .barra{
@@ -13,12 +16,10 @@ body{
 }
 
 .bienvenidos{
-    background-color: #fff;
-    height: 92vh;
+    height: 100vh;
     width: 100%;
-    max-width: 1600px;
+    max-width: 1920px;
     min-width: 320px;
-    margin: auto;
 }
 
 img{
@@ -28,7 +29,9 @@ img{
 
 
 .servicios{
-    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #252526;
     height: 10vh;
     color: aliceblue;
@@ -36,57 +39,36 @@ img{
 }
 
 .textoservicios{
-    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #252526;
     height: 10vh;
     text-align: center;
     color: aliceblue;
 }
 
-.multimedia{
-    border: 2px solid #fff;
+.todoservicios{
     background-color: #252526;
-    height: 70vh;
+    height: 55vh;
     text-align: center;
     color: aliceblue;
 }
 
 .multimediafoto{
-    border: 2px solid #fff;
-    background-color: #252526;
-    height: 35vh;
-    text-align: center;
-    color: aliceblue;
+   height: 200px;
+   width: 250px;
+   margin: 10px;
 }
 
-.multimediatexto{
-    border: 2px solid #fff;
-    background-color: #252526;
-    height: 28vh;
-    text-align: center;
-    color: aliceblue;
-}
 
-.ilustracion{
-    border: 2px solid #fff;
-    background-color: #252526;
-    height: 70vh;
-    text-align: center;
-    color: aliceblue;
-}
-
-.diseñoweb{
-    border: 2px solid #fff;
-    background-color: #252526;
-    height: 70vh;
-    text-align: center;
-    color: aliceblue;
-}
 
 
 
 .portafolio{
-    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #0F0E0E;
     height: 10vh;
     text-align: center;
@@ -94,7 +76,8 @@ img{
 }
 
 .fotografia{
-    border: 2px solid #fff;
+    justify-content: center;
+    align-items: center;
     background-color: #0F0E0E;
     height: 80vh;
     text-align: center;
@@ -102,7 +85,6 @@ img{
 }
 
 .fotografiatexto1{
-    border: 2px solid #fff;
     background-color: #0F0E0E;
     height: 7vh;
     text-align: center;
@@ -110,15 +92,16 @@ img{
 }
 
 .fotografiafoto{
-    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #0F0E0E;
-    height: 65vh;
+    height: 73vh;
     text-align: center;
     color: aliceblue;
 }
 
 .ilustraciontexto{
-    border: 2px solid #fff;
     background-color: #252526;
     height: 7vh;
     text-align: center;
@@ -126,15 +109,16 @@ img{
 }
 
 .ilustracionfoto{
-    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #252526;
-    height: 65vh;
+    height: 53vh;
     text-align: center;
     color: aliceblue;
 }
 
 .audiovisuales{
-    border: 2px solid #fff;
     background-color: #0F0E0E;
     height: 80vh;
     text-align: center;
@@ -142,17 +126,19 @@ img{
 }
 
 .dibujo{
-    border: 2px solid #fff;
+    justify-content: center;
+    align-items: center;
     background-color: #252526;
-    height: 80vh;
+    height: 63vh;
     text-align: center;
     color: aliceblue;
 }
 
 .diseño{
-    border: 2px solid #fff;
+    justify-content: center;
+    align-items: center;
     background-color: #252526;
-    height: 80vh;
+    height: 63vh;
     text-align: center;
     color: aliceblue;
 }
@@ -160,7 +146,9 @@ img{
 
 
 .sobremi{
-    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #0F0E0E;
     height: 10vh;
     text-align: center;
@@ -168,94 +156,168 @@ img{
 }
 
 .texto{
-    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #0F0E0E;
-    height: 80vh;
+    height: 70vh;
     text-align: center;
     color: aliceblue;
 }
 
 .foto{
-    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
     background-color: #0F0E0E;
-    height: 80vh;
+    height: 70vh;
     text-align: center;
     color: aliceblue;
+    position: 10px;
 }
 
-.sobremitexto{
-    border: 2px solid #fff;
-    background-color: #0F0E0E;
-    height: 72vh;
-    text-align: center;
-    color: aliceblue;
-}
+
 
 
 
 .contacto{
-    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #252526;
     height: 10vh;
     text-align: center;
     color: aliceblue;
 }
 
-.contactofoto{
-    border: 2px solid #fff;
+.redes{
+    justify-content: center;
+    align-items: center;
     background-color: #252526;
-    height: 33vh;
+    height: 25vh;
     text-align: center;
     color: aliceblue;
 }
 
-.facebook{
-    border: 2px solid #fff;
-    background-color: #252526;
-    height: 40vh;
-    text-align: center;
-    color: aliceblue;
+.fotojuan{
+    height: 520px;
+    width: 330px;
+    align-content: center;
+    border: 0;
+    max-width: 600px;
+    min-width: 50px;
+    margin: auto;
 }
 
-.gmail{
-    border: 2px solid #fff;
-    background-color: #252526;
-    height: 40vh;
-    text-align: center;
-    color: aliceblue;
+.jovinsena{
+    height: 550px;
+    width: 450px;
 }
 
-.youtube{
-    border: 2px solid #fff;
-    background-color: #252526;
-    height: 40vh;
-    text-align: center;
-    color: aliceblue;
+.hilarypicado{
+    height: 500px;
+    width: 500px;
 }
 
-.whatsapp{
-    border: 2px solid #fff;
-    background-color: #252526;
-    height: 40vh;
-    text-align: center;
-    color: aliceblue;
+.alejo{
+    height: 550px;
+    width: 360px;
 }
 
-.instagram{
-    border: 2px solid #fff;
-    background-color: #252526;
-    height: 40vh;
-    text-align: center;
-    color: aliceblue;
+.jovinfondo{
+    height: 500px;
+    width: 500px;
 }
 
-.pinterest{
-    border: 2px solid #fff;
-    background-color: #252526;
-    height: 40vh;
-    text-align: center;
-    color: aliceblue;
+.videouno{
+    height: 500px;
+    width: 500px;
+}
+
+.pantera{
+    height: 400px;
+    width: 280px;
 }
 
 
 
+
+
+
+
+
+
+.imagenes{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.imagenes::before{
+    content:'';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top,#202020,#20202000);
+    z-index: 100000;
+}
+
+section img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+
+}
+
+section img#luna{
+    mix-blend-mode: screen;
+}
+
+#btn{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 40px ;
+    z-index:10;
+    color: black;
+    font-family: ohayu;
+    font-size: 10rem;
+    transform: translate(100px);
+}
+
+.sec1{
+    padding: 50vh;
+    background-color: #09031b;
+}
+
+.sec1 h2{
+    font-family: ohayu;
+    font-size: 5rem;
+    color: white;
+}
+
+@media (min-width: 468px) {
+    .text-light mb-5 {
+        padding: 15px 105px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 1320px){
+    .textoPeque {
+        font-size: 50px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
